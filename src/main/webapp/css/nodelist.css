@@ -1,0 +1,30 @@
+@charset "UTF-8";
+*{
+  box-sizing:border-box;
+  }
+#container {  
+  width:500px;
+  margin:20px auto;
+  padding:20px;
+}
+input[type="text"] {
+  width:300px; /**/ 
+  float:left;
+  height:30px;
+  padding-left:30px;
+  margin-right: 10px; /**/ 
+}
+button {
+  width:60px; /**/
+  height:30px;
+  float:left; /**/
+  background:#222; 
+  color:#fff;
+  border:none;
+  margin-left: 2px;/**/
+  margin-right: 1px;/**/
+}
+hr { clear:both; display:none; }
+ul { list-style:none; padding-top:50px;}
+li { line-height: 2.5; }
+li:hover { cursor:pointer;}

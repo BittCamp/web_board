@@ -1,0 +1,17 @@
+@charset "UTF-8";
+#container{
+    width: 400px;
+    height: 200px;
+    margin: 0 auto;
+    padding: 10px;
+    border: solid 1px #222; 
+   }
+   .inputTag{
+    width: 360px;
+    height: 40px;
+    margin: 2px 0px 5px 20px;
+    padding: 5px;
+    vertical-align: middle;
+    text-align: left;
+/*     border: solid 1px #222; */
+   }

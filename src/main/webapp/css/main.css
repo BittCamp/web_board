@@ -1,0 +1,115 @@
+@charset "UTF-8";
+/* 왼쪽 콘텐츠 */
+aside {
+    width:190px;
+    float:left;
+}
+/* 로그인 */
+aside #login_box {
+    width:186px;
+    height:120px;
+    border:solid 1px #dddddd;
+    border-radius:10px;
+    background-color:#f3f3f3;
+}
+aside #login_title {
+	margin: 10px 0 0 20px;
+	}
+aside #login_input {
+   float:left;
+   margin:10px 0 0 10px;
+}
+aside #login_btn {
+    float:left;
+    margin:12px 0 0 5px;
+}
+aside #login_input input {
+    width:100px;
+    height:20px;
+    border:solid 1px #dddddd;
+}
+aside #login_input li { 
+    margin-top:2px;
+}
+aside #join_search {
+    margin:10px 0 0 5px;	
+}
+aside #guestBook {
+    width:189px;
+    height:135px;	
+    margin-top:15px;
+    background-color:#eeeeee;
+    border:solid 1px #cccccc;	
+    border-radius:10px;
+    box-shadow:2px 2px 5px #dddddd;
+}
+aside #guestBook_title{
+    width:165px;	
+    padding:10px 0 0 5px;
+    margin:0 0 0 8px;
+    border-bottom:solid 1px #cccccc;	
+}
+aside #guestBook ul {
+    margin:10px 0 0 40px;
+}
+aside #guestBook li {
+    margin-top:5px;
+    list-style-image:url("../images/icon_blue.gif");
+}
+/*오른쪽 메인*/
+section#main{
+	width: 758px;
+	float: right;
+	/* border:solid 1px #ff0000; */
+}
+/* 공지사항, 자유 게시판, YOUTUBE를 포함하는 박스 */
+section#main #notice_free_youtube{
+	height:250px;  
+    position:relative;	
+    margin-top:10px;
+}
+section#main #notice{
+	width:300px;
+    position:absolute;
+}
+/*최근 게시물 이미지와 목록*/
+section#main .latest_title{
+	padding-bottom: 3px;
+    border-bottom: solid 1px #cccccc;
+}
+section#main .latest_title img.latest_img{
+	float: left;
+}
+section#main .latest_title img.more{
+	float:right; 
+}
+section#main .latest_title li{
+  padding:10px 0 10px 0;
+}
+section#main .latest_content .list div{
+	 float:right;
+}
+section#main .latest_content .list .subject{
+	width:170px;
+}
+section#main .latest_content .list .date{
+	   margin-right: 10px;
+}
+/* 자유 게시판 박스 */
+section#main #free {
+	margin-top:70px;
+    width:300px;
+    position:absolute;
+    top:120px;
+    /*border:solid 1px #0000ff; */
+}
+section#main #youtube {
+	width:365px;
+    height:250px;
+    position:absolute;
+    left:380px;
+    /*border:solid 1px #0000ff; */
+}
+section#main #youtube_img {
+ margin: 10px 0 0 45px;	
+}
